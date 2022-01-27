@@ -3,7 +3,7 @@ import "./CoinFlip.sol";
 
 
 contract DirtyRat {
-    CoinFlip public originalContract = CoinFlip (0xae5E8486B66D4c09412660CeA0E6036a087F4Ae5);
+    CoinFlip public originalContract = CoinFlip ('Direccion de la instancia');
     uint256 FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968;
     
     function hackFlip(bool _guess) public {
