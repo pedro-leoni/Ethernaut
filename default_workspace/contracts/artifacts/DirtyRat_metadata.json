@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_guess",
+						"type": "bool"
+					}
+				],
+				"name": "hackFlip",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "originalContract",
+				"outputs": [
+					{
+						"internalType": "contract CoinFlip",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/pwn.sol": "DirtyRat"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0xa2f576be637946f767aa56601c26d717f48a0aff44f82e46f13807eea1009a21",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://973868f808e88e21a1a0a01d4839314515ee337ad096286c88e41b74dcc11fc2",
+				"dweb:/ipfs/QmfYuZxRfx2J2xdk4EXN7jKg4bUYEMTaYk9BAw9Bqn4o2Y"
+			]
+		},
+		"contracts/CoinFlip.sol": {
+			"keccak256": "0xfbe58d6dbd4a5cb12331bb239f88858ed495e290ebc3b153ce3b5157c3495233",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c7926e2c0cd63607596df4c1c707b2cfb7ce4ce504731d3dab8ca38026e7b979",
+				"dweb:/ipfs/QmcqWVpygYUQ8TQHXrLHQmSvp12NkUWEtMv4TqexR9U2E6"
+			]
+		},
+		"contracts/pwn.sol": {
+			"keccak256": "0x65f8a9366a020ec7811d697ed71cd2b876d185fd8ac41fecac927df2f6f74068",
+			"urls": [
+				"bzz-raw://8db4f8defbcfb06b800949b56d2982cf8e72737c4a4461101db212d14783e4f1",
+				"dweb:/ipfs/QmPxb1zBT9avSZk1oPLsJ9mrMMzyj9Q8w7dNN8XzbJT6p1"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "originalContract",
+				"outputs": [
+					{
+						"internalType": "contract Telephone",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pwn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/telepwn.sol": "Telepwn"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/telephone.sol": {
+			"keccak256": "0xc377db63577d6905195996e134c496a56af09ced5590432acaad8f612d876311",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a9d73469ed37bcb4f3c997532bd33547c4515b23eb3765481434308693ae7380",
+				"dweb:/ipfs/Qmeck1C97pM3o2wKJ2aXpaSLBjEwgCB9suujSFv5EfD5uF"
+			]
+		},
+		"contracts/telepwn.sol": {
+			"keccak256": "0x32d54b22d213302a82090e1929bd91c9e45fc1b89a582b8cf56981ffa2e4c039",
+			"urls": [
+				"bzz-raw://66008a783bb82e47aa9e2951dbfb260f2dfdc4811fbae79928f96f0c3075b3f6",
+				"dweb:/ipfs/QmbZ8cRX8hbz3ns3Ca7rzZpW3uZv3gZqAnhVFLXZ6Ypogp"
+			]
+		}
+	},
+	"version": 1
+}
