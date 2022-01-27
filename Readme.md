@@ -7,3 +7,5 @@ REMIX EXAMPLE PROJECT
 
 RESOLUCIONES: 
 se encuentran en progreso las resoluciones a ejercicios de https://ethernaut.openzeppelin.com/
+
+el codigo se encuentra en /default_workspace/contracts/ 
